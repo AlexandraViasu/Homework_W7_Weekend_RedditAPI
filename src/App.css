@@ -1,11 +1,9 @@
 .App {
   text-align: center;
+  background-color: black;
+  height:auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,16 +11,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +23,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+video {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #dc6917, #e2bb98);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #d3be93, 0px 0px 10px #d3be93, 0px 0px 10px #d3be93,
+    0px 0px 20px #d3be93;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 15px; 
+  font-weight: 400; 
+  line-height: 24px; 
+  margin: 0 0 14px;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+
+}
+.box {
+  box-shadow: rgb(251, 251, 251) 0px 0px 0px 2px,
+              rgb(220, 186, 123) 0px 4px 6px -1px, 
+              rgb(231, 232, 180) 0px 1px 0px inset;
+  align-items: center;
+  max-width:95%;
 }
